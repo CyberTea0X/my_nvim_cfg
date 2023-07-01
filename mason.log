@@ -1,0 +1,57 @@
+[ERROR 01.07.2023 16:40:19] ...acker\start\mason.nvim/lua/mason-core/providers/init.lua:75: Provider "github" "get_latest_release" failed: spawn: powershell failed with exit code - and signal -. powershell is not executable
+[ERROR 01.07.2023 16:40:19] ...acker\start\mason.nvim/lua/mason-core/providers/init.lua:75: Provider "github" "get_latest_release" failed: spawn: powershell failed with exit code - and signal -. powershell is not executable
+[ERROR 01.07.2023 16:40:19] ...acker\start\mason.nvim/lua/mason-core/providers/init.lua:86: No provider implementation succeeded for github.get_latest_release
+[ERROR 01.07.2023 16:40:19] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to fetch latest registry version from GitHub API."
+[ERROR 01.07.2023 16:40:19] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"json-lsp\"".
+[ERROR 01.07.2023 16:40:47] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"html-lsp\"".
+[ERROR 01.07.2023 16:40:47] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"css-lsp\"".
+[ERROR 01.07.2023 16:40:47] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"typescript-language-server\"".
+[ERROR 01.07.2023 16:40:47] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"lua-language-server\"".
+[ERROR 01.07.2023 16:40:47] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"python-lsp-server\"".
+[ERROR 01.07.2023 16:40:47] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"eslint-lsp\"".
+[ERROR 01.07.2023 16:40:47] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"rust-analyzer\"".
+[ERROR 01.07.2023 16:41:29] ...acker\start\mason.nvim/lua/mason-core/providers/init.lua:75: Provider "github" "get_latest_release" failed: spawn: powershell failed with exit code - and signal -. powershell is not executable
+[ERROR 01.07.2023 16:41:30] ...acker\start\mason.nvim/lua/mason-core/providers/init.lua:75: Provider "github" "get_latest_release" failed: spawn: powershell failed with exit code - and signal -. powershell is not executable
+[ERROR 01.07.2023 16:41:30] ...acker\start\mason.nvim/lua/mason-core/providers/init.lua:86: No provider implementation succeeded for github.get_latest_release
+[ERROR 01.07.2023 16:41:30] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to fetch latest registry version from GitHub API."
+[ERROR 01.07.2023 16:41:51] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:41:56] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:42:02] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:42:07] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:42:17] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:42:17] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"json-lsp\"".
+[ERROR 01.07.2023 16:42:20] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"html-lsp\"".
+[ERROR 01.07.2023 16:42:22] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"css-lsp\"".
+[ERROR 01.07.2023 16:42:22] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"typescript-language-server\"".
+[ERROR 01.07.2023 16:42:22] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"lua-language-server\"".
+[ERROR 01.07.2023 16:42:23] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"python-lsp-server\"".
+[ERROR 01.07.2023 16:42:23] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"eslint-lsp\"".
+[ERROR 01.07.2023 16:42:23] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"rust-analyzer\"".
+[ERROR 01.07.2023 16:42:30] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:43:00] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:43:00] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"json-lsp\"".
+[ERROR 01.07.2023 16:43:03] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"html-lsp\"".
+[ERROR 01.07.2023 16:43:04] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"css-lsp\"".
+[ERROR 01.07.2023 16:43:04] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"typescript-language-server\"".
+[ERROR 01.07.2023 16:43:04] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"lua-language-server\"".
+[ERROR 01.07.2023 16:43:04] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"python-lsp-server\"".
+[ERROR 01.07.2023 16:43:04] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"eslint-lsp\"".
+[ERROR 01.07.2023 16:43:05] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"rust-analyzer\"".
+[ERROR 01.07.2023 16:43:08] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:44:35] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:45:42] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:45:53] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:46:57] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:47:29] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:49:33] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:54:14] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:54:14] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"json-lsp\"".
+[ERROR 01.07.2023 16:54:17] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"html-lsp\"".
+[ERROR 01.07.2023 16:54:18] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"css-lsp\"".
+[ERROR 01.07.2023 16:54:18] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"typescript-language-server\"".
+[ERROR 01.07.2023 16:54:18] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"lua-language-server\"".
+[ERROR 01.07.2023 16:54:19] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"python-lsp-server\"".
+[ERROR 01.07.2023 16:54:19] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"eslint-lsp\"".
+[ERROR 01.07.2023 16:54:19] ...pack\packer\start\mason.nvim/lua/mason-registry/init.lua:79: Cannot find package "\"rust-analyzer\"".
+[ERROR 01.07.2023 16:54:26] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."
+[ERROR 01.07.2023 16:54:56] ...r\start\mason.nvim/lua/mason-registry/sources/github.lua:181: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to download registry archive."

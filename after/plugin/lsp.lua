@@ -22,9 +22,12 @@ lsp.ensure_installed({
 	'tsserver',
 	'lua_ls',
 	'pylsp',
-	'eslint',
 	'rust_analyzer',
 })
+
+require'lspconfig'.rust_analyzer.setup{}
+require'lspconfig'.tsserver.setup{}
+
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
