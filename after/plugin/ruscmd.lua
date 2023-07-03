@@ -1,2 +1,3 @@
-require('ruscmd').setup{}
+require('ruscmd').setup {}
+vim.keymap.del("n", ",")
 
