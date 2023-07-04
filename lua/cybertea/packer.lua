@@ -17,6 +17,8 @@ return require('packer').startup(function(use)
     vim.cmd('colorscheme rose-pine')
     -- russian keyboard remap
     use ('aveplen/ruscmd.nvim')
+    -- game for being good at vim
+    use ('thePrimeagen/vim-be-good')
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use('theprimeagen/harpoon')
