@@ -15,8 +15,6 @@ return require('packer').startup(function(use)
     -- theme
     use({ 'rose-pine/neovim', as = 'rose-pine' })
     vim.cmd('colorscheme rose-pine')
-    -- russian keyboard remap
-    use ('aveplen/ruscmd.nvim')
     -- game for being good at vim
     use ('thePrimeagen/vim-be-good')
     -- helps working with cargo.toml
