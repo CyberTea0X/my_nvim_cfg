@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Anatoliy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["crates.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Anatoliy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\crates.nvim",
+    url = "https://github.com/saecki/crates.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\Anatoliy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
@@ -143,11 +148,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Anatoliy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  ["translate.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\Anatoliy\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\translate.nvim",
-    url = "https://github.com/uga-rosa/translate.nvim"
   },
   undotree = {
     loaded = true,

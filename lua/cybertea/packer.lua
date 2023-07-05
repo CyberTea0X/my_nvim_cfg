@@ -19,6 +19,9 @@ return require('packer').startup(function(use)
     use ('aveplen/ruscmd.nvim')
     -- game for being good at vim
     use ('thePrimeagen/vim-be-good')
+    -- helps working with cargo.toml
+    use ('nvim-lua/plenary.nvim')
+    use('saecki/crates.nvim')
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use('theprimeagen/harpoon')
