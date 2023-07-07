@@ -18,8 +18,14 @@ return require('packer').startup(function(use)
     -- game for being good at vim
     use ('thePrimeagen/vim-be-good')
     -- helps working with cargo.toml
-    use ('nvim-lua/plenary.nvim')
-    use('saecki/crates.nvim')
+    use {
+        'saecki/crates.nvim',
+        tag = 'v0.3.0',
+        requires = { 'nvim-lua/plenary.nvim' },
+        config = function()
+            require('crates').setup()
+        end,
+    }
     -- helps with russian keyboard
     use('Wansmer/langmapper.nvim')
 
