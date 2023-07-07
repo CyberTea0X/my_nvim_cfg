@@ -20,7 +20,6 @@ return require('packer').startup(function(use)
     -- helps working with cargo.toml
     use {
         'saecki/crates.nvim',
-        tag = 'v0.3.0',
         requires = { 'nvim-lua/plenary.nvim' },
         config = function()
             require('crates').setup()
@@ -28,6 +27,8 @@ return require('packer').startup(function(use)
     }
     -- helps with russian keyboard
     use('Wansmer/langmapper.nvim')
+    -- translation
+    use('uga-rosa/translate.nvim')
 
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use('theprimeagen/harpoon')
