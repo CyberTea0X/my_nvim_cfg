@@ -25,13 +25,6 @@ return require('packer').startup(function(use)
             require('crates').setup()
         end,
     }
-    -- helps with russian keyboard
-    use({
-        'Wansmer/langmapper.nvim',
-        config = function()
-            require('langmapper').setup({--[[ your config ]]})
-        end,
-    })
     -- translation
     use('uga-rosa/translate.nvim')
 
