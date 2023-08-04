@@ -20,6 +20,10 @@ vim.keymap.set("n", "N", "Nzzzv")
 -- pastes over selected text and selected text goes into the void register
 vim.keymap.set("x", "<leader>p", [["_dP]])
 
+-- pastes from system buffer
+vim.keymap.set("x", "<leader><leader>p", '"*p')
+vim.keymap.set("n", "<leader><leader>p", '"*p')
+
 -- next greatest remap ever : asbjornHaland
 -- allows to yank into the system register
 vim.keymap.set({"n", "v"}, "<leader>y", [["+y]])
@@ -48,8 +52,3 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 -- makes bash into executable (maybe not only bash, idk)
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", { silent = true })
-
--- quick shout out
-vim.keymap.set("n", "<leader><leader>", function()
-    vim.cmd("so")
-end)
