@@ -25,6 +25,7 @@ lsp.ensure_installed({
 	'pylsp',
 	'rust_analyzer',
     'gopls',
+    'svelte'
 })
 
 require'lspconfig'.rust_analyzer.setup{}
