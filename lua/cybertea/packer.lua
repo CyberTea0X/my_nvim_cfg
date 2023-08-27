@@ -15,6 +15,8 @@ return require('packer').startup(function(use)
     -- theme
     use({ 'rose-pine/neovim', as = 'rose-pine' })
     vim.cmd('colorscheme rose-pine')
+    -- tabnine
+    use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
     -- game for being good at vim
     use ('thePrimeagen/vim-be-good')
     -- helps working with cargo.toml
