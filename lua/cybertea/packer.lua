@@ -15,6 +15,8 @@ return require('packer').startup(function(use)
     -- theme
     use({ 'rose-pine/neovim', as = 'rose-pine' })
     vim.cmd('colorscheme rose-pine')
+    -- auto detecting indent style
+    use ('nmac427/guess-indent.nvim')
     -- tabnine
     use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
     -- game for being good at vim
