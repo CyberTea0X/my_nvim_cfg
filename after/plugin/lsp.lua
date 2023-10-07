@@ -2,8 +2,9 @@ local lsp = require('lsp-zero').preset({})
 
 lsp.on_attach(function(client, buffer)
 	local opts = { buffer = buffer, remap = false }
-	-- Autoformat on save
-	lsp.buffer_autoformat()
+	if client.supports_method('textDocument/formatting') then
+		require('lsp-format').on_attach(client)
+	end
 
 	vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
 	vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)

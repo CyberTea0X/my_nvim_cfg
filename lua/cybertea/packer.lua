@@ -36,9 +36,9 @@ return require('packer').startup(function(use)
     use('theprimeagen/harpoon')
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
+    use('lukas-reineke/lsp-format.nvim')
     use {
         'VonHeikemen/lsp-zero.nvim',
-        branch = 'v2.x',
         requires = {
             -- LSP Support
             {'neovim/nvim-lspconfig'},             -- Required
