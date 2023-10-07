@@ -20,7 +20,7 @@ lsp.ensure_installed({
     "jsonls",
     "html",
     "cssls",
-	'tsserver',
+	'eslint',
 	'lua_ls',
 	'pylsp',
 	'rust_analyzer',
