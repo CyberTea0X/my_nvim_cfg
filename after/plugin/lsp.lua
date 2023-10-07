@@ -1,7 +1,7 @@
 local lsp = require('lsp-zero').preset({})
 
 lsp.on_attach(function(client, buffer)
-	local opts = {buffer = buffer, remap = false}
+	local opts = { buffer = buffer, remap = false }
 
 	vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end, opts)
 	vim.keymap.set("n", "K", function() vim.lsp.buf.hover() end, opts)
@@ -17,23 +17,23 @@ lsp.on_attach(function(client, buffer)
 end)
 
 lsp.ensure_installed({
-    "jsonls",
-    "html",
-    "cssls",
+	"jsonls",
+	"html",
+	"cssls",
 	'tsserver',
 	'lua_ls',
 	'pylsp',
 	'rust_analyzer',
-    'gopls',
-    'svelte',
+	'gopls',
+	'svelte',
 })
 
-require'lspconfig'.rust_analyzer.setup{}
-require'lspconfig'.tsserver.setup{}
+require 'lspconfig'.rust_analyzer.setup {}
+require 'lspconfig'.tsserver.setup {}
 
 
 local cmp = require('cmp')
-local cmp_select = {behavior = cmp.SelectBehavior.Select}
+local cmp_select = { behavior = cmp.SelectBehavior.Select }
 local cmp_mappings = lsp.defaults.cmp_mappings({
 	['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),
 	['<C-n>'] = cmp.mapping.select_next_item(cmp_select),
