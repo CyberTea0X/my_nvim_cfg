@@ -35,7 +35,11 @@ lsp.ensure_installed({
 
 require 'lspconfig'.rust_analyzer.setup {}
 require 'lspconfig'.tsserver.setup {}
-
+require('flutter-tools').setup({
+    lsp = {
+        capabilities = lsp.get_capabilities()
+    }
+})
 
 local cmp = require('cmp')
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
