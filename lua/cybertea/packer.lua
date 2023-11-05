@@ -37,6 +37,8 @@ return require('packer').startup(function(use)
     use('mbbill/undotree')
     use('tpope/vim-fugitive')
     use('lukas-reineke/lsp-format.nvim')
+    -- just for discord presence, nothing practical
+    use('andweeb/presence.nvim')
     -- lsp and other for flutter
     use {
         'akinsho/flutter-tools.nvim',
