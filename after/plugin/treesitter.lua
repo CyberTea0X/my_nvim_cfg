@@ -12,6 +12,6 @@ require 'nvim-treesitter.configs'.setup {
 
     highlight = {
         enable = true,
-        disable = { 'markdown', 'md', 'lua' },
+        disable = { 'markdown', 'md', 'lua', "bash" },
     },
 }
