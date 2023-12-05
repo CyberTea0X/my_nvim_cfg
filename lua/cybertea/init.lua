@@ -1,5 +1,4 @@
 require("cybertea.remap")
 require("cybertea.packer")
 require("cybertea.set")
-require("cybertea.gpaste")
 print("Hello, Cybertea!")
